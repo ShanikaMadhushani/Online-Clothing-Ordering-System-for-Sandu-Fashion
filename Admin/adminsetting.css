@@ -1,0 +1,53 @@
+.edit{
+    width: 90%;
+    background: #851b85;
+    color: #fff;
+    border: #851b85;
+    margin-top: 18px;
+    border-radius: 5px;
+    height: 40px;
+   
+   
+    
+}
+.edit:hover{
+    color: #851b85;
+    background:#EDD2FF ;
+    
+}
+
+.cancel{
+    width: 90%;
+    background: #851b85;
+    color: #fff;
+    border: #851b85;
+    margin-top: 16px;
+    border-radius: 5px;
+    height: 40px;
+   
+   
+    
+}
+.cancel:hover{
+    color: #851b85;
+    background:#EDD2FF ;
+    
+}
+
+.back{
+    width: 90%;
+    background: #851b85;
+    color: #fff;
+    border: #851b85;
+    margin-top: 16px;
+    border-radius: 5px;
+    height: 40px;
+   
+   
+    
+}
+.back:hover{
+    color: #851b85;
+    background:#EDD2FF ;
+    
+}

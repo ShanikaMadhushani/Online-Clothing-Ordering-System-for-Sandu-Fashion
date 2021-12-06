@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body{
+    background: #ffccbc;
+
+} */
+/* .action{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+
+} */
+.fa-shopping-cart{
+    color:#851889;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .fa-heart{
+    color:#851889;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+.action .profile{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+
+
+}
+.action .profile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    object-fit:cover ;
+}
+.action .menu{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    padding: 10px 20px;
+    background: #f2e4fd;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0,1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+
+}
+.action .menu.active{
+    top: 80px;
+    visibility: visible;
+    opacity: 1;
+      z-index: 10;
+}
+
+.action .menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: #f2e4fd;
+    transform:rotate(45deg);
+}
+.action .menu h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 28px;
+    color: #851889;
+    line-height: 1.2em;
+}
+
+.action .menu h3 span{
+    font-size: 14px;
+    color: #851889;
+    font-weight: 400;
+}
+
+.action .menu ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0,05);
+    align-items: center;
+    display: flex;
+}
+/* .action .menu ul li img{
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.action .menu ul li:hover img{
+    opacity: 1;
+} */
+.action .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #851889;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+.action .menu ul li:hover a{
+    color: #ff5d94;
+}

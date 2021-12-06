@@ -1,0 +1,21 @@
+
+body{
+    background:  #EDD2FF;
+}
+
+.logbtn{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #851889;
+    color: #e5cfe6;
+    border-radius: 8px;
+    font-weight: bold;
+    /* margin-left: 40px; */
+  }  
+  .logbtn:hover{
+    background:#fff;
+    border: 1px solid;
+    color: #851889;
+  }

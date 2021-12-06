@@ -1,0 +1,36 @@
+body{
+    background: #EDD2FF;
+}
+
+
+
+h3{
+    color: #851b85;
+    font-weight: bold;
+    
+}
+input{
+    width: 100%;
+    background: #f7e5f7;
+    border: none;
+    border-color: #f7e5f7;
+    height: 30px;
+    border-radius: 4px;
+}
+label{
+    color: #851b85;
+}
+button{
+    width: 100%;
+    background:#851b85 ;
+    height: 35px;
+    border-color:#851b85 ;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+button:hover{
+    background:#f7e5f7 ;
+    color: #851b85;
+    border-color: #851b85;
+}

@@ -1,0 +1,44 @@
+/* --Login-- */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+.log{
+  color:#851889;
+  font-size: 36px;
+ 
+}
+ .logbtn{
+   border: none;
+   outline: none;
+   height: 50px;
+   width: 100%;
+   background-color: #851889;
+   color: #e5cfe6;
+   border-radius: 8px;
+   font-weight: bold;
+ }  
+ .logbtn:hover{
+   background:#fff;
+   border: 1px solid;
+   color: #851889;
+ }
+ .b-name{
+   font-size: 100px;
+   word-spacing: 20px ;
+   text-align: center;
+   color: #851889;
+   margin-top: 40px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+   /* text-shadow:  12px 12px 22px #7b499c; */
+   
+ }
+
+
+/* --End of Login-- */
